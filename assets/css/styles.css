@@ -1,0 +1,60 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+
+#banner{
+	background: #eaeaea;
+	height: 500px;
+	width: 100%;
+	overflow: hidden;
+	background: url('../img/banner/banner-sobre-nos.jpg');
+	background-size: cover;
+	background-position: 0 0;
+}
+.title{
+	margin-top: 20%;
+	font-size: 60pt;
+	text-align: center;
+	color: #fefefe;
+	text-shadow: 1px 1px 4px #666;
+}
+
+.card{
+	margin: 20px auto;
+	border-color: #17a2b8 !important;
+}
+.card:hover{
+	box-shadow: 0 0 5px #aaa;
+}
+.card .card-title{
+	color: #17a2b8;
+}
+#main{
+	margin: 50px auto;
+}
+
+#aboutus{
+	background: #eee;
+	padding: 100px 0;
+}
+
+#footer{
+	background: #600;
+	margin: 0 auto;
+	padding: 0;
+}
+#footer *{
+	color: #fff;
+}
+#containerFooter{
+	padding: 50px 0;
+}
+#footerBellow{
+	height: 50px;
+	line-height: 50px;
+	background: #200;
+}
+#footerBellow *{
+	color: #fff;
+}
